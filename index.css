@@ -14,6 +14,8 @@ body {
   padding: 115px 52px;
   box-sizing: border-box;
   text-align: left;
+  border: 5px solid white;
+  border-radius: 5%;
 }
 
 .title {
