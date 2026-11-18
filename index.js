@@ -2,6 +2,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 let pass1 = document.getElementById("pass1-el");
 let pass2 = document.getElementById("pass2-el");
+let genBtn = document.getElementById("gen-btn")
 let passwordL=15;
 
 
@@ -21,3 +22,4 @@ function generate(){
     pass1.textContent = generatePass();
     pass2.textContent = generatePass();
 }
+genBtn.addEventListener("click", generate);
