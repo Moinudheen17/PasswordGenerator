@@ -8,20 +8,20 @@ body {
   background-color: #1F2937;
   width: 550px;
   height: 550px;
-  padding: 115px 52px; /* Creates the exact top and left spacing from Figma */
+  padding: 115px 52px; 
   box-sizing: border-box;
-  text-align: left; /* Aligns all text to the left */
+  text-align: left; 
 }
 
 #g1 {
   color: white;
-  width: 354px; /* Added 'px' so the text wraps cleanly at 354px */
+  width: 354px;
   margin: 0 0 10px 0;
   font-family: "Karla", sans-serif;
   font-weight: 800;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.025em; /* CSS uses 'em' instead of '%' for letter-spacing */
+  letter-spacing: -0.025em; 
 }
 
 .g2 {
