@@ -7,5 +7,7 @@ function generate(){
 
 }
 function random(){
-    let random number
+    let randomNumber=Math.floor(Math.random)*characters.length
 }
+let randomNumber=Math.floor(Math.random)*characters.length
+console.log(randomnumber)
