@@ -1,8 +1,23 @@
 body {
     margin: 0;
     display: flex;
-    background:#1C1C1C
+    background:#1C1C1C;
+    background-size:cover
 }
 #g1{
     color: white;
+    padding-bottom: 2px;
+}
+#g2{
+    color:#4ADF86
+}
+.hero{
+    margin: 50px 150px 100px 150px;
+    width:1150px;
+    height:550px;
+     font-family: "Karla", sans-serif;
+     font-size: 40px;
+     font-style: bold;
+    text-align: center;
+    background-color: #1F2937;
 }
