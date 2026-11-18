@@ -1,49 +1,49 @@
 body {
-    margin: 0;
-    display: flex;
-    background:#1C1C1C;
-    background-size:cover
+  background: #1C1C1C;
+  margin: 0;
+  padding: 40px;
 }
-#g1{
-    color: white;
-    font-family: "Karla", sans-serif;
-     font-size: 50px;
-     font-style:bold;
-     padding: 0;
-     margin:0;
+
+.hero {
+  background-color: #1F2937;
+  width: 550px;
+  height: 550px;
+  padding: 115px 52px; /* Creates the exact top and left spacing from Figma */
+  box-sizing: border-box;
+  text-align: left; /* Aligns all text to the left */
 }
-#g2{
-    color:#4ADF86;
-    font-family: "Karla", sans-serif;
-    font-size: 50px;
-    font-style: bold;
-    padding: 0;
-    margin:0;
+
+#g1 {
+  color: white;
+  width: 354px; /* Added 'px' so the text wraps cleanly at 354px */
+  margin: 0 0 10px 0;
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.025em; /* CSS uses 'em' instead of '%' for letter-spacing */
 }
-#g3{
-    color:silver;
-    padding: 0;
-    margin:0;
-    font-size: 30px;
-    font-family: "Karla", sans-serif;
+
+.g2 {
+  color: #4ADF86;
 }
-.hero{
-    margin: 50px 150px 100px 150px;
-    padding: 0;
-    width:1150px;
-    height:550px;
-     font-family: "Karla", sans-serif;
-     font-size: 40px;
-     font-style: bold;
-     text-align: center;
-     align-items: center;
-    background-color: #1F2937;
+
+#g3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #D5D4D8;
+  line-height: 28px;
+  margin: 0 0 50px 0;
 }
-#genr{
-    margin-top: 50px;
-    background-color: #10B981;
-    color: white;
-    align-items: left;
-    text-align: left;
-    margin-left:-380px;
+
+#genr {
+  background-color: #10B981;
+  color: white;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 9px 17px 9px 15px;
+  cursor: pointer;
 }
