@@ -46,4 +46,15 @@ body {
   border-radius: 6px;
   padding: 9px 17px 9px 15px;
   cursor: pointer;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+#line{
+width: 446.0000000000017px;
+height: 0px;
+opacity: 1px;
+top: 361px;
+left: 52px;
+border-width: 1px;
+color:#2F3E53;
 }
